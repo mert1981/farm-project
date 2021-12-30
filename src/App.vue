@@ -1,19 +1,19 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div id="app" class="flex flex-row max-h-screen space-x-4">
+    <div class="w-1/12 bg-black h-screen">
+      <sideBar />
     </div>
-    <router-view/>
-    <sideBar/>
+    <div class="w-11/12 bg-red-700 h-screen">
+      <router-view />
+    </div>
   </div>
 </template>
 <script>
-import sideBar from "./components/side-bar.vue"
+import sideBar from "./components/side-bar.vue";
 export default {
   name: "app",
-  components:{sideBar }
-}
+  components: { sideBar },
+};
 </script>
 <style>
 #app {
