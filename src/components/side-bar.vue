@@ -1,7 +1,7 @@
 <template>
   <div id="nav" class="h-screen flex-col justify-between rounded-md" >
     
-     <div class=" h-full ">
+     <div class=" roundend-md h-full ">
         <div class="flex pt-6 justify-center">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/800px-Apple_logo_grey.svg.png" alt="">
             </div>
