@@ -1,9 +1,9 @@
 <template>
-  <div id="app" class="flex flex-row max-h-screen space-x-4">
-    <div class="w-1/12 bg-gray-500 h-screen">
+  <div id="app" class="flex flex-row max-h-screen">
+    <div class="w-20">
       <sideBar />
     </div>
-    <div class="w-11/12 bg-gray-700 h-screen">
+    <div class="w-screen h-screen">
       <router-view />
     </div>
   </div>
